@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新メンコファイターズ</title>
+  <link rel="stylesheet" href="style.css">
+      <style>
+         body {
+     margin: 0;
+     padding: 0;
+     background-image: url("네모.png");
+     background-repeat: repeat;
+     background-size: 16px 16px;
+     overflow-y: scroll;
+    }
+        div{
+            margin: 0px; 
+            box-sizing: border-box;
+        }
+
+        #background-image{
+            background: url("キャラクター2.png") no-repeat; 
+            background-size:cover; 
+            width: 800px; 
+            height:128px; 
+            margin:0 auto; 
+            position:relative; 
+            display: block;
+            margin-top: -2px;
+        }
+             #frontground-image{
+            text-align: center; 
+            position: relative; 
+        }
+           #main-container {
+    background-image:
+        url("점.png"),
+        url("エリア.png");
+
+    background-repeat:
+        repeat,
+        no-repeat;
+
+    background-position:
+        top left,
+        top left;
+
+    background-size:
+    
+       800px 10px,
+     100% 100%
+       
+}
+
+        </style>
+ </head>
+ 
+<body>
+
+  <div id="background-image">
+    <div id="frontground-image">
+      <a href="SMF.html">
+        <img src="ロゴ仮2.png" alt="Frontground Image" width="250" height="110" style="margin-top: 7px;">
+      </a>
+    </div>
+  </div>
+
+  <div id="main-container">
+       
+       <nav id="sidebar-area">
+        <a href="SMF_sub1.html">
+        <img src="ボタンN.png" alt="ニュース" class="menu-btn"
+             onmouseover="this.src='ボタンN2.png'" 
+             onmouseout="this.src='ボタンN.png'">
+    </a>
+    <a href="SMF_sub2.html">
+        <img src="ボタンC2.png" alt="キャラクター" class="menu-btn">
+    </a>
+
+    <a href="SMF_sub3.html">
+        <img src="ボタンH.png" alt="ヒストリー" class="menu-btn"
+             onmouseover="this.src='ボタンH2.png'" 
+             onmouseout="this.src='ボタンH.png'">
+    </a>
+</nav>
+
+<main id="content-area">
+    
+
+ <details class="box">
+      
+  <summary class="header">
+    
+    
+    <div class="text-group">
+        <p class="test2" style="color: red; font-size: 20px; text-align: left;">
+            ▶赤野 炎馬/あかの えんま
+        </p>
+         <p class="test2" style="font-size: 17px; text-align: left;">
+            「バシッと行くぜ!!」 
+        </p>
+        <p class="test1" style="font-size: 15px; text-align: left;">
+           メンコ好きの小学生メンコファイター。<br>
+           日本中の強い奴らとバトルのが趣味だ。<br>
+           元気いっぱいの熱い性格の持ち主。<br>
+           その熱い情熱をメンコエネルギーに変える。<br>
+           使用しているメンコ＝相棒は<br>
+           「フレイム・レッド・スパイク」
+
+        </p>
+    </div>
+
+    <img src="キャラ＿赤.png" alt="赤野 炎馬" class="char-thumb">
+      </summary>
+
+    </details>
+
+ 
+  <details class="box">
+        <summary class="header">
+          <div class="text-group">
+            <p class="test2" style="color: rgb(255, 200, 0); font-size: 20px; text-align: left;">
+                ▶黄羽 姫雷莉/きば きらり
+            </p>
+             <p class="test2" style="font-size: 17px; text-align: left;">
+            「キキを甘く見ないで〜★」 
+        </p>
+            <p class="test1" style="font-size: 15px; text-align: left;">
+                自分を「キキ」と読んでいて<br>
+                周りからもそう呼ぶことを強要する。<br>
+                かわいいものが大好きな女の子。<br>
+                世界一かわいいのは自分、それも<br>
+                バトル中の自分だと思っている。<br>
+                使用しているメンコは<br>
+                「ライトニング・サンダー・ブレイド」
+            </p>
+        
+          </div>
+            <span class="toggle-icon"></span>
+
+        <img src="キャラ＿黄.png" alt="黄羽 姫雷莉" class="char-thumb">
+
+        </summary>
+    </details>
+
+    
+      <details class="box">
+        <summary class="header">
+          <div class="text-group">
+            <p class="test2" style="color: blue; font-size: 20px; text-align: left;">
+                ▶青園寺 波空/せいおんじ はく
+            </p>
+            <p class="test2" style="font-size: 17px; text-align: left;">
+            「手加減はしませんよ？」 
+        </p>
+            <p class="test1" style="font-size: 15px; text-align: left;">
+               SMF社会長の一人息子＝ボンボン。<br>
+               学校では王子様みたいな存在で、<br>
+               特に女の子たちにモテモテだ。<br>
+               メンコの実力もかなりのものである。<br>
+               使用しているメンコは<br>
+               「サード・アクア・ウンディーネ」
+            </p>
+          </div>
+
+          <img src="キャラ＿青.png" alt="青園寺 波空" class="char-thumb">
+
+        </summary>
+
+    </details>
+
+</main>
+
+  </div>
+  <footer id="footer-copyright">
+       <img src="著作権2.png" alt="Copyright" style="margin-top: 10px;">
+  </footer>
+</body>
+</html>
