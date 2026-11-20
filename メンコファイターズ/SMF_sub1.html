@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新メンコファイターズ</title>
+  <link rel="stylesheet" href="style.css">
+    <style>
+         body {
+     margin: 0;
+     padding: 0;
+     background-image: url("H.png");
+     background-repeat: repeat;
+     background-size: 16px 16px;
+     overflow-y: scroll;
+    }
+        div{
+            margin: 0px; 
+            box-sizing: border-box;
+        }
+
+        #background-image{
+            background: url("NEW.png") no-repeat; 
+            background-size:cover; 
+            width: 800px; 
+            height:128px; 
+            margin:0 auto; 
+            position:relative; 
+            display: block;
+            margin-top: -2px;
+        }
+             #frontground-image{
+            text-align: center; 
+            position: relative; 
+        }
+        #main-container {
+    background-image:
+        url("dot.png"),
+        url("A.png");
+
+    background-repeat:
+        repeat,
+        no-repeat;
+
+    background-position:
+        top left,
+        top left;
+
+    background-size:
+    
+       800px 10px,
+     100% 100%
+       
+}
+.box-title {
+    margin: 0 0 25px 0;
+    width: 100%;
+}
+
+.text-image-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.text-area {
+    flex: 1;
+    min-width: 0;
+}
+
+.text-area p {
+    margin: -3px 0 0 0;
+
+}
+
+.image-area {
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.image-area img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+        </style>
+ </head>
+ 
+ 
+<body>
+
+  <div id="background-image">
+    <div id="frontground-image">
+      <a href="index.html">
+        <img src="ROGO.png" alt="Frontground Image" 
+        width="250" height="110" style="margin-top: 7px;">
+      </a>
+    </div>
+  </div>
+
+  <div id="main-container">
+       
+       <nav id="sidebar-area">
+           <a href="SMF_sub1.html">
+        <img src="btnN2.png" alt="ニュース" class="menu-btn">
+    </a>
+
+    <a href="SMF_sub2.html">
+        <img src="btnC.png" alt="キャラクター" class="menu-btn"
+             onmouseover="this.src='btnC2.png'" 
+             onmouseout="this.src='btnC.png'">
+    </a>
+    <a href="SMF_sub3.html">
+        <img src="btnH.png" alt="ヒストリー" class="menu-btn"
+             onmouseover="this.src='btnH2.png'" 
+             onmouseout="this.src='btnH.png'">
+    </a>
+</nav>
+
+       <main id="content-area">
+
+<div class="box">
+
+    <p class="test2" style="font-size: 20px; text-align: left;">
+             ▶京都精華大学展に「新メンコファイターズ」も参戦!!
+
+    <div class="text-image-layout">
+
+        <div class="text-area">
+            <p class="test1" style="font-size: 15px; text-align: left;">
+                サイトの内容と展示の内容が若干異なります。<br>
+                特に展示では新メンコ体験ができますので<br>
+                どうぞよろしくお願いいたします。test版
+            </p>
+        </div>
+
+        <div class="image-area">
+            <img src="H.png" alt="Image">
+        </div>
+
+    </div>
+
+</div>
+
+
+
+           <div class="box">
+            <p class="test2" style="font-size: 20px; text-align: left;">
+             ▶京都精華大学展に「新メンコファイターズ」も参戦!!
+            </p>
+            <p class="test1" style="font-size: 15px; text-align: left;">
+                サイトの内容と展示の内容が若干異なります。<br>
+                特に展示では新メンコ体験ができますので<br>
+                どうぞよろしくお願いいたします。
+            </p>
+           </div>
+
+              <div class="box">
+            <p class="test2" style="font-size: 20px; text-align: left;">
+             ▶新「黄金ver」メンコが初登場!!
+            </p>
+            <p class="test1" style="font-size: 15px; text-align: left;">
+                初代新メンコ3種が黄金色に変身だ!!<br>
+                夢の「黄金ver」は2月開催の<br>
+                京都精華大学卒展でしか目にできない。<br>
+                是非とも展示でご覧くだされ!!
+            </p>
+           </div>
+       </main>
+</div>
+  <footer id="footer-copyright">
+       <img src="JUNG.png" alt="Copyright" style="margin-top: 10px;">
+  </footer>
+
+</body>
+</html>
